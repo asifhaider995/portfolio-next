@@ -45,9 +45,48 @@
   font-size: 4rem;
 }
 
+.title2 {
+  margin: 0;
+  line-height: 1.5;
+  font-size: 18px;
+  max-width: 70%;
+  text-align: center;
+}
+
 .title,
 .description {
   text-align: center;
+}
+.cover {
+  width: 100%;
+  height: 95vh;
+  display: grid;
+  place-items: center;
+}
+.projects {
+  display: grid;
+  place-items: center;
+}
+
+.projectTitle {
+  margin-bottom: 15px;
+  line-height: 1.5;
+  font-size: 2.5rem;
+  max-width: 75%;
+  text-align: center;
+}
+
+.projectSubTitle {
+  margin-bottom: 15px;
+  line-height: 1.5;
+  font-size: 1.5rem;
+  max-width: 75%;
+  text-align: center;
+}
+
+.innerCover {
+  display: grid;
+  place-items: center;
 }
 
 .description {
